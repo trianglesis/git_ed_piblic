@@ -1,0 +1,2 @@
+# Ignore all log files, for example, do not push any file which is .log.
+*.log
