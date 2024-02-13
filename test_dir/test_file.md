@@ -8,3 +8,8 @@ Pull request should be reviewed and approved.
 This file commented and the reviewer asked to change something.
 This is another line I was asked to add
 ```
+
+
+## New branch
+
+- Use new branch "my fixes" in the fork.
