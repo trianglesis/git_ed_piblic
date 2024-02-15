@@ -15,7 +15,7 @@
 1. Add some text at the branch test-ONE:
    1. But leave untouched another section 2.
 
-Change this
+Change this. Changing this at the branch ONE.
 
 2. Add some test at the branch test-TWO:
    1. But leave untouched another section 1.
