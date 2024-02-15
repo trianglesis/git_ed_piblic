@@ -39,6 +39,11 @@ How to create a merge conflict. Use a file from this directory.
 ![alt text](branch_two_change.png)
 
 
+- Pull request
+
+![alt text](Pull_Request.png)
+
+
 # Read:
 
 - https://stackoverflow.com/a/45386813
