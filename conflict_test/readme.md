@@ -5,7 +5,6 @@ This is merge conflict message:
 ![alt text](Merge_Conflict_Message.png)
 
 
-
 How to create a merge conflict. Use a file from this directory. 
 
 
