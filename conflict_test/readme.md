@@ -34,6 +34,9 @@ How to create a merge conflict. Use a file from this directory.
 
 ![alt text](branch_one_change.png)
 
+- Change in the branch TWO
+
+![alt text](branch_two_change.png)
 
 
 # Read:
