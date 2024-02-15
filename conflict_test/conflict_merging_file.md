@@ -14,8 +14,8 @@
 
 1. Add some text at the branch test-ONE:
 
-Change this.
+Changed at test two branch
 
 2. Add some test at the branch test-TWO:
 
-Change this.
+Changed at test two branch
