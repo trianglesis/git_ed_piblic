@@ -53,3 +53,10 @@ How to create a merge conflict. Use a file from this directory.
 
 - https://stackoverflow.com/a/45386813
 - https://codeforphilly.github.io/decentralized-data/tutorials/actually-using-git/lessons/conflicting-branches/
+
+
+
+# Tested workflow:
+
+- https://github.com/trianglesis/git_ed_public/pull/8
+- https://github.com/trianglesis/git_ed_public/pull/9
