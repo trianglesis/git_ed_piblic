@@ -1,6 +1,13 @@
 # Conflict merging test
 
+This is merge conflict message:
+
+![alt text](Merge_Conflict_Message.png)
+
+
+
 How to create a merge conflict. Use a file from this directory. 
+
 
 1. Sync everything from the main repo in your fork's main branch
 2. Create a few new branches from your fork's main branch:
