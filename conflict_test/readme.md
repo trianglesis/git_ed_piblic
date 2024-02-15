@@ -27,6 +27,15 @@ How to create a merge conflict. Use a file from this directory.
 5. If everything done right, you'll see a merge conflict at the one of Pull Requests after they'll be ready to Merge.
 
 
+
+# Pics
+
+- Change in the branch one
+
+![alt text](branch_one_change.png)
+
+
+
 # Read:
 
 - https://stackoverflow.com/a/45386813
