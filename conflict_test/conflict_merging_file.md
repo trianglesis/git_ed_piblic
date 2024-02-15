@@ -20,4 +20,4 @@ Change this
 2. Add some test at the branch test-TWO:
    1. But leave untouched another section 1.
 
-Change this
+Change this: changing this at branch TWO, do not touch anything else. Push only from branch two!
