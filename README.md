@@ -1,80 +1,25 @@
-## Git repo for educational purposes
+# How to use
 
 
-```shell
-git lfs install
-```
+# Usual workflow FORKING
+
+Here is a simplified workflow using the fork approach:
 
 
-### Create repo from scratch
-
-```shell
-git init . && \
-git lfs install && \
-git config --add user.email "it@trianglesis.org.ua" && \
-git config --add user.name "Oleksandr D" && \
-git lfs track "*.zip" && \
-git lfs track "*.xz" && \
-git lfs track "*.gz" && \
-git lfs track "*.dml" && \
-git lfs track "*.dmltemp" && \
-git lfs track "*.model" && \
-git lfs track "*.log" && \
-git lfs track "*.rpm" && \
-git lfs track "*.mp4" && \
-git lfs track "*.pdf" && \
-git remote add origin git@github.com:trianglesis/git_ed_piblic.git && \
-git add README.md && \
-git add .gitattributes && \
-git add .gitignore && \
-git commit -m "first commit" && \
-git branch -M main && \
-git push -u origin main && \
-echo "Git config finish!"
-```
-
-
-### Always fix line endings for everyone:
-
-- https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
-
-
-### At local system:
-
-```shell
-git config --global core.autocrlf true
-```
-
-
-### At repo for all
-
-```
-vi .gitattributes
-```
-
-```shell
-# Set the default behavior, in case people don't have core.autocrlf set.
-* text=auto
-
-# Explicitly declare text files you want to always be normalized and converted
-# to native line endings on checkout.
-*.py text
-*.tplpre text
-*.dml text
-*.dmltemp text
-*.model text
-```
-
-
-
-# Other useful links:
-
-## Ignore files and folders:
-
-- https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-
-## Git Cheat Sheets:
-
-- https://training.github.com/
+1. Make a fork from the original repository.
+   1. [How to make a fork](DOCUMENTATION/forking/fork_original_repo.md)
+2. Close your fork's main branch from commits.
+   1. [Close the main branch](DOCUMENTATION/branching/branch_rules.md)
+3. Create a new branch at your fork to work on a new fix.
+   1. [Create a new branch](DOCUMENTATION/branching/branching.md)
+4. Commit your local changes to a newly created branch.
+5. Push local changes to your remote branch.
+   1. [Push code doc](DOCUMENTATION/commit_push/push_code_forked.md)
+6. Create a Pull Request from that branch back into the original repository main branch.
+   1. [Pull request doc](DOCUMENTATION/pull_request/pull_request_and_review.md)
+7. Assign reviewer and wait for comments or approve
+   1. Continue your work on another fix, creating a new branch from your fork's main branch.
+   2. [Create a new branch](DOCUMENTATION/branching/branching.md)
+8. Merge your changes after approval in the Pull Request
+   1. [Pull request doc](DOCUMENTATION/pull_request/pull_request_and_review.md)
 
