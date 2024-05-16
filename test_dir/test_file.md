@@ -13,3 +13,5 @@ This is another line I was asked to add
 ## New branch
 
 - Use new branch "my fixes" in the fork.
+
+- New changes
