@@ -15,3 +15,5 @@ This is another line I was asked to add
 - Use new branch "my fixes" in the fork.
 
 ## Trunk branch is used for common changes.
+
+Add commit 2.
